@@ -1,0 +1,30 @@
+.tables-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.t-unit {
+    padding: 10px;
+}
+
+.table {
+  background: #f5ffff;
+  border-collapse: collapse;
+  text-align: left;
+}
+.table th {
+    border: 1px solid #e3eef7;
+    background: #efefef;
+    padding: 10px 15px;
+    position: relative;
+}
+
+.table tr:nth-child(odd) {
+  background: #f7f7f7;
+}
+
+.table td {
+  border: 1px solid #e3eef7;
+  padding: 10px 15px;
+  position: relative;
+}
